@@ -1,0 +1,253 @@
+body, html { 
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.left-side { 
+		height:100%;
+		width: 40%;
+		position: relative;
+		overflow: auto;
+		position: fixed;
+	}
+
+	.left-side-image { 
+	background-image: url('../images/side-image.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	filter: grayscale(1);
+	background-position: center;
+}
+
+	.right-side { 
+		height: auto; 
+		width: 60%; 
+		margin-left: 40%; 
+		overflow: auto;
+	}
+
+	.right-side .home {
+		padding: 140px 100px;
+		text-align: center;
+	}
+	.right-side .home h2 {
+		font-size: 60px;
+		margin-bottom: 10px;
+		padding: 0px;
+		color: #333;
+	}
+
+	.right-side .home p {
+		font-size: 18px;
+		margin-bottom: 10px;
+		padding: 0px;
+		color: #777;
+		margin-bottom: 30px;
+	}
+
+	.right-side .home button {
+		background-color: #f1f1f1;
+		border:none;
+		outline: 0px;
+		padding: 20px 40px;
+		font-size: 15px;
+		color: #999;
+		font-family: 'Montserrat', sans-serif;
+		cursor: pointer;
+		font-weight: normal;
+	}
+
+	
+	.right-side .home button:hover {
+		background-color: #d9d9d9;
+}
+
+	.right-side .images {
+		padding: 30px 20px;
+	}
+
+	.right-side .images h3{
+		font-size: 30px;
+		margin-bottom: 30px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .images .all-images img{
+		width: 46%;
+		margin: 0px 20px 20px 0px;
+		box-shadow: 5px 5px 20px #333;
+		filter: grayscale(1);
+	}
+
+	.right-side .about {
+		padding: 30px 20px;
+	}
+
+	.right-side .about h3{
+		font-size: 30px;
+		margin-bottom: 30px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .about h4{
+		font-size: 20px;
+		margin: 30px 0px 10px 0px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .about .webdesign{
+		width: 100%;
+		background-color: #999;
+		height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+	.right-side .about .webdesign-percent{
+		width: 80%;
+		background-color: #111;
+		height: 40px;
+		padding: 0px;
+		margin: -10px 0px 0px -10px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	.right-side .about .webdesign-percent p{
+		color: #fff;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		box-sizing: border-box;
+		line-height: 40px;
+	}
+
+	.right-side .about .graphicdesign{
+		width: 100%;
+		background-color: #999;
+		height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+	.right-side .about .graphicdesign-percent{
+		width: 60%;
+		background-color: #111;
+		height: 40px;
+		padding: 0px;
+		margin: -10px 0px 0px -10px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	.right-side .about .graphicdesign-percent p{
+		color: #fff;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		box-sizing: border-box;
+		line-height: 40px;
+	}
+
+	.right-side .about .jj{
+		width: 100%;
+		background-color: #999;
+		height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+	.right-side .about .jj-percent{
+		width: 40%;
+		background-color: #111;
+		height: 40px;
+		padding: 0px;
+		margin: -10px 0px 0px -10px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	.right-side .about .jj-percent p{
+		color: #fff;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		box-sizing: border-box;
+		line-height: 40px;
+	}
+
+	.right-side .about p{
+		font-size: 15px;
+		margin-bottom: 30px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+		line-height: 22px;
+	}
+
+	.sidepanel {
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		height: 100%;
+		top: 0;
+		right: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+
+	.sidepanel a{
+		padding: 30px 10px 10px 10px;
+		text-decoration: none;
+		font-size: 30px;
+		color: #888;
+		display: block;
+		transition: 0.3s; 
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+	}
+
+	.sidepanel a:hover{
+		color: #fff;
+	}
+
+	.sidepanel .closebtn {
+		position: absolute;
+		top: -25px;
+		right: 10px;
+		font-size: 40px;
+	}
+
+	.openbtn {
+		font-size: 30px;
+		cursor: pointer;
+		background-color: #f1f1f1;
+		color: #111;
+		padding: 10px 15px;
+		border: none;
+		float: right;
+		position: fixed;
+		right: 0;
+	}
+
+	.openbtn:hover {
+		background-color: #999;
+		color: white;
+	}
