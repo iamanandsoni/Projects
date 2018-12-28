@@ -117,7 +117,7 @@ body, html {
 
 	.right-side .about .webdesign-percent{
 		width: 80%;
-		background-color: #111;
+		background-color: #444;
 		height: 40px;
 		padding: 0px;
 		margin: -10px 0px 0px -10px;
@@ -145,7 +145,7 @@ body, html {
 
 	.right-side .about .graphicdesign-percent{
 		width: 60%;
-		background-color: #111;
+		background-color: #444;
 		height: 40px;
 		padding: 0px;
 		margin: -10px 0px 0px -10px;
@@ -173,7 +173,7 @@ body, html {
 
 	.right-side .about .jj-percent{
 		width: 40%;
-		background-color: #111;
+		background-color: #444;
 		height: 40px;
 		padding: 0px;
 		margin: -10px 0px 0px -10px;
@@ -198,6 +198,39 @@ body, html {
 		font-weight: 400;
 		text-align: left;
 		line-height: 22px;
+	}
+
+	.right-side .about-work{
+		background-color: #444;
+		height: 100px;
+		padding: 50px 0px;
+		margin: 40px 0px;
+		text-align: center;	
+		box-sizing: border-box;
+	}
+
+	.right-side .about-work table{
+		margin-top: -35px;
+		padding: 0px;
+		width: 100%;
+		border-collapse: collapse;
+		border: none;
+	}
+
+	.right-side .about-work table tr td{
+		color: #fff;
+		width: 25%;
+		margin: 0px;
+		padding: 0px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.right-side .about-work table tr td span{
+		color: #fff;
+		font-size: 25px;
+		line-height: 40px;
+
 	}
 
 	.sidepanel {
