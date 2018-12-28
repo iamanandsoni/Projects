@@ -3,6 +3,8 @@ body, html {
 		padding: 0px;
 		font-family: 'Montserrat', sans-serif;
 	}
+
+/* Left Side Css */
 	
 	.left-side { 
 		height:100%;
@@ -13,13 +15,15 @@ body, html {
 	}
 
 	.left-side-image { 
-	background-image: url('../images/side-image.jpg'); 
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	filter: grayscale(1);
-	background-position: center;
-}
+		background-image: url('../images/side-image.jpg'); 
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		filter: grayscale(1);
+		background-position: center;
+	}
+
+/* Right Side Css */
 
 	.right-side { 
 		height: auto; 
@@ -27,6 +31,8 @@ body, html {
 		margin-left: 40%; 
 		overflow: auto;
 	}
+
+/* Right Side Home Css */
 
 	.right-side .home {
 		padding: 140px 100px;
@@ -53,16 +59,24 @@ body, html {
 		outline: 0px;
 		padding: 20px 40px;
 		font-size: 15px;
-		color: #999;
-		font-family: 'Montserrat', sans-serif;
+		color: #333;
 		cursor: pointer;
 		font-weight: normal;
+		font-weight: 300;
+	}
+
+	.right-side .home button span {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
 	}
 
 	
 	.right-side .home button:hover {
-		background-color: #d9d9d9;
-}
+		background-color: #333;
+		color: #fff;
+	}
+
+/* Right Side Images Css */
 
 	.right-side .images {
 		padding: 30px 20px;
@@ -83,6 +97,8 @@ body, html {
 		box-shadow: 5px 5px 20px #333;
 		filter: grayscale(1);
 	}
+
+/* Right Side About Css */
 
 	.right-side .about {
 		padding: 30px 20px;
@@ -200,6 +216,8 @@ body, html {
 		line-height: 22px;
 	}
 
+/* Right Side About-Work Css */
+
 	.right-side .about-work{
 		background-color: #444;
 		height: 100px;
@@ -230,8 +248,244 @@ body, html {
 		color: #fff;
 		font-size: 25px;
 		line-height: 40px;
-
 	}
+
+/* Right Side My Reputaion Css */
+
+	.right-side .my-reputation {
+		padding: 30px 20px;
+	}
+
+	.right-side .my-reputation img{
+		display: inline-block;
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.right-side .my-reputation h3{
+		font-size: 30px;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .my-reputation h4{
+		font-size: 20px;
+		margin: 30px 20px 10px 0px;
+		padding-top: 15px;
+		color: #333;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .my-reputation span{
+		font-size: 16px;
+		margin-left: 20px;
+		padding: 0px;
+		color: #888;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .my-reputation p{
+		font-size: 15px;
+		margin: 10px 0px;
+		padding: 0px;
+		color: #888;
+		font-weight: 400;
+		text-align: left;
+	}
+
+/* Right Side My Price Css */
+
+	.right-side .my-price {
+		padding: 30px 20px;
+	}
+
+	.right-side .my-price h3{
+		font-size: 30px;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .my-price ul{
+		list-style: none;
+		margin: 0px 20px 0px 0px;
+		padding: 0px;
+		width: 45%;
+		box-shadow: 2px 2px 4px #999;
+		border: 1px solid #b5b5b5;
+		display: inline-block;
+	}
+
+	.right-side .my-price ul:hover{
+		box-shadow: 4px 2px 10px #999;
+	}
+
+	.right-side .my-price ul:last-child li:first-child{
+		background-color: #333;
+	}
+
+	.right-side .my-price ul li{
+		font-size: 15px;
+		padding: 20px;
+		color: #888;
+		font-weight: 400;
+		text-align: center;
+		border-bottom: 1px solid #b5b5b5;
+	}
+
+	.right-side .my-price ul li:first-child{
+		background-color: #666;
+		font-size: 24px;
+		color: #fff;
+		font-weight: 300px;
+		line-height: 60px;
+		border:none;
+	}
+
+	.right-side .my-price ul li:last-child{
+		background-color: #f1f1f1;
+		border-bottom: none;
+	}
+
+	.right-side .my-price ul li span{
+		font-size: 24px;
+		font-weight: 300px;
+		line-height: 40px;
+	}
+
+	.right-side .my-price ul li button{
+		font-size: 16px;
+		font-weight: 300px;
+		line-height: 40px;
+		padding: 5px 20px;
+		border: none;
+		outline: 0px;
+		color: #333;
+		background-color: #fff;
+		font-family: "Montserrat";
+		cursor:pointer;
+	}
+	.right-side .my-price ul li button:hover{
+		background-color: #333;
+		color: #fff;
+	}
+
+	.right-side .my-price p{
+		font-size: 15px;
+		margin: 10px 0px;
+		padding: 0px;
+		color: #888;
+		font-weight: 400;
+		text-align: left;
+	}
+
+/* Right Side Contact Me Css */
+
+	.right-side .contact {
+		padding: 30px 20px;
+	}
+
+	.right-side .contact h3{
+		font-size: 30px;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .contact p{
+		font-size: 16px;
+		margin: 20px 0px;
+		padding: 0px;
+		color: #666;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.right-side .contact p i{
+		font-size: 20px;
+		margin: 0px 20px 0px 0px;
+		padding: 0px;
+		color: #666;
+	}
+
+	.right-side .contact img{
+		width: 100%;
+		box-sizing: border-box;
+		filter: grayscale(1);
+		margin: 0px 0px 20px 0px;
+	}
+
+	.right-side .contact form input[type=text], textarea {
+		width: 100%;
+		padding: 20px;
+		margin: 8px 0;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		border-radius: 1px;
+		font-family: "Montserrat";
+	}
+
+	.right-side .contact form button {
+		color: #333;
+		padding: 20px 30px;
+		margin: 8px 0;
+		border: none;
+		text-transform: uppercase;
+		background-color: #f1f1f1;
+		border-radius: 1px;
+		font-family: "Montserrat";
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.right-side .contact form button:hover {
+		background-color: #333;
+		color: #fff;
+	}
+
+/* Right Side Footer Css */
+
+	.right-side .footer {
+		padding: 30px 20px;
+		background-color: #f1f1f1;
+		text-align: center;
+		height: 150px;
+	}
+
+	.right-side .footer i{
+		color: #666;
+		font-size: 25px;
+		margin: 10px 5px;
+		padding: 5px;
+		cursor: pointer;
+		transition: 0.4s;
+	}
+
+	.right-side .footer i:hover{
+		color: #000;
+	}
+	
+	.right-side .footer p{
+		color: #333;
+		font-size: 16px;
+		margin: 10px 5px;
+		color: #333; 
+	}
+
+
+/* Navigation Sidepanel Css */
 
 	.sidepanel {
 		width: 0;
