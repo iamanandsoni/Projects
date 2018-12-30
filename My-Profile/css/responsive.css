@@ -8,12 +8,73 @@ body, html {
 	
 
 	@media screen and (max-width: 479px) {
-	  .left-side {
+
+	  	.left-side {
 	    display: none;
 		}
+
 		.right-side {
 	    width: 100%;
 	    margin: 0px;
+		}
+
+		.right-side .home{
+	    width: 100%;
+	    padding: 40px 0px;
+		}
+
+		.right-side .home h2 {
+		    font-size: 50px;
+		    padding: 20px 30px;
+		}
+
+		.right-side .images .all-images img {
+		    margin: 0px 8px 20px 0px;
+		}
+		.right-side .my-price ul {
+		    margin: 0px 9px 0px 0px;
+		}
+		.right-side .contact p {
+		    font-size: 14px;
+		}
+		.right-side .my-price ul li{
+			font-size: 13px;
+		}
+
+		.right-side .my-price ul li button {
+		    font-size: 13px;
+		    padding: 0px 13px;
+		}
+
+		.right-side .my-reputation h4 {
+		    font-size: 16px;
+		    padding: 0px;
+		}
+
+		.right-side .my-reputation span {
+		    font-size: 14px;
+		    margin-left: 0px;
+		    display: inherit;
+		    margin-top: 5px;
+		}
+		.right-side .my-reputation p {
+		    font-size: 13px;
+		    display: -webkit-box;
+		}
+
+		.right-side .contact form button {
+		    padding: 15px 20px;
+		    font-size: 13px;
+		}
+
+		.right-side .about-work table tr td span {
+		    font-size: 20px;
+		}
+		.right-side .about-work table tr td {
+		    font-size: 12px;
+		}
+		.sidepanel a {
+		    font-size: 20px;
 		}
 	}
 
@@ -21,7 +82,67 @@ body, html {
 /* For Tablets 480px to 767px */
 
 	@media screen and (min-width: 480px) and (max-width: 767px) {
-	  .right-side {
+	  	.right-side .home {
+		    padding: 80px 35px;
+		}
+		.right-side .home button {
+			padding: 15px 20px;
+		}
+
+		.right-side .images .all-images img {
+		    margin: 0px 7px 20px 0px;
+		}
+
+		.right-side .my-reputation h4 {
+		    font-size: 18px;
+		    padding: 0px;
+		}
+
+		.right-side .my-reputation span {
+		    font-size: 14px;
+		    margin-left: 0px;
+		    display: inherit;
+		    margin-top: 5px;
+		}
+		.right-side .my-reputation p {
+		    font-size: 13px;
+		    display: -webkit-box;
+		}
+
+		.right-side .my-price ul {
+		    margin: 0px 7px 0px 0px;
+		}
+
+		.right-side .my-price ul li{
+			font-size: 12px;
+			padding: 20px 0px;
+		}
+
+		.right-side .my-price ul li button {
+		    font-size: 13px;
+		    padding: 0px 13px;
+		}
+
+		.right-side .contact p {
+		    font-size: 14px;
+		}
+
+		.right-side .contact p i {
+		    margin: 0px 8px 0px 0px;
+		}
+		.right-side .contact form button {
+		    padding: 15px 20px;
+		    font-size: 13px;
+		}
+
+		.right-side .about-work table tr td span {
+		    font-size: 20px;
+		}
+		.right-side .about-work table tr td {
+		    font-size: 12px;
+		}
+		.sidepanel a {
+		    font-size: 20px;
 		}
 	}
 
@@ -29,14 +150,15 @@ body, html {
 /* For Small Laptops 768px to 1199px */
 
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
-	  .right-side {
+
+		.right-side .home {
+		    padding: 120px 50px;
 		}
+
+	 	 .right-side .images .all-images img {
+		    margin: 0px 15px 20px 0px;
+		}
+
 	}
 
-/* For Desktop and Large Laptops 1200px and above */
-
-	@media screen and (min-width: 1200px) {
-	  .right-side {
-		}
-	}
 
