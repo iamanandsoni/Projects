@@ -1,0 +1,42 @@
+body, html { 
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+/* For Mobiles 320px to 479px */
+	
+
+	@media screen and (max-width: 479px) {
+	  .left-side {
+	    display: none;
+		}
+		.right-side {
+	    width: 100%;
+	    margin: 0px;
+		}
+	}
+
+
+/* For Tablets 480px to 767px */
+
+	@media screen and (min-width: 480px) and (max-width: 767px) {
+	  .right-side {
+		}
+	}
+
+
+/* For Small Laptops 768px to 1199px */
+
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+	  .right-side {
+		}
+	}
+
+/* For Desktop and Large Laptops 1200px and above */
+
+	@media screen and (min-width: 1200px) {
+	  .right-side {
+		}
+	}
+
